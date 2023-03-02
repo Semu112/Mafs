@@ -13,7 +13,7 @@ find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets Test Core)
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets Test Core)
 
 set(PROJECT_SOURCES
-#        main.cpp
+        main.cpp
         tests.cpp
         mafs.cpp
         mafs.h
